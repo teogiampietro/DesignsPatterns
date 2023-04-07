@@ -9,8 +9,8 @@ abstract class Transport
     {
         // Call the factory method to create a Product object.
         var transport = LogisticFactory();
-        // Now, use the product.
-        var result = "Creator: The same creator's code has just worked with "
+        // Now, use the transport.
+        var result = "LogisticFactory: The same LogisticFatory code has just worked with "
             + transport.Deliver();
 
         return result;

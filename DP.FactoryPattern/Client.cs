@@ -19,7 +19,6 @@ class Client
 
     public void ClientCode(Transport transport)
     {
-
         Console.WriteLine("Client: I'm not aware of the transport's class," +
             "but it still works.\n" + transport.CreateTransport());
     }
