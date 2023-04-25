@@ -1,6 +1,6 @@
 ﻿namespace DP.FactoryPattern.LogisticFactory;
 
-abstract class Transport
+public abstract class Transport
 {
 
     public abstract ITransport LogisticFactory();

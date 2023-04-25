@@ -14,6 +14,10 @@ class Client
         Console.WriteLine("App: Launched with the Sea Logistic.");
         ClientCode(new SeaLogistics());
 
+        Console.WriteLine("App: Launched with the Sea Logistic.");
+        ClientCode(new RiverLogistic());
+
+
         Console.ReadKey();
     }
 
